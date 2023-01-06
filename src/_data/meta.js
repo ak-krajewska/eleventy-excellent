@@ -3,14 +3,14 @@ const package = require('../../package.json');
 module.exports = {
   pkv: package.version || 'v1',
   url: process.env.URL || 'http://localhost:8080',
-  siteName: 'Eleventy Excellent',
+  siteName: 'Dys Blog',
   siteDescription:
-    'Eleventy starter based on the workflow suggested by buildexcellentwebsit.es.',
+    'Multi-topic blog for things that are too long for Mastodon',
   siteType: 'Person', // schema
   locale: 'en_EN',
   lang: 'en',
   skipContent: 'Skip to content',
-  author: 'Lene Saile', // i.e. Lene Saile - author's name. Must be set.
+  author: 'Dys', // i.e. Lene Saile - author's name. Must be set.
   authorEmail: '', // i.e. hola@lenesaile.com - email of the author
   authorWebsite: '', // i.e. https.://www.lenesaile.com - the personal site of the author
   themeColor: '#DD4462', //  Manifest: defines the default theme color for the application
@@ -19,13 +19,13 @@ module.exports = {
     opengraph_default: '/assets/images/opengraph-default.jpg',
     twitterSite: '', // i.e. @site - twitter profile of the site
     twitterCreator: '', // i.e. @author -  twitter profile of the site
-    mastodonProfile: '' // i.e. https://front-end.social/@lene - url to your mastodon instance/profile
+    mastodonProfile: 'https://sfba.social/@dys_morphia' // i.e. https://front-end.social/@lene - url to your mastodon instance/profile
   },
   blog: {
     // this is for the rss feed
-    name: 'My great Web Development Blog',
+    name: 'Dys blog',
     description:
-      'Tell the word what you are writing about in your blog! It will show up on feed readers.'
+      'Multi-topic blog for things that are too long for Mastodon'
   },
   pagination: {
     itemsPerPage: 20
